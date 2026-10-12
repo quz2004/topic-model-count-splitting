@@ -1,0 +1,17 @@
+{
+ "seed": 7,
+ "n_null": 300,
+ "K": 30,
+ "split_hvonly": {
+  "shuffled_theta_frac_p05": 0.063,
+  "frac_p05": 0.09633333333333334,
+  "frac_p01": 0.034,
+  "n": 9000
+ },
+ "split3bb_hvonly": {
+  "shuffled_theta_frac_p05": 0.05533333333333333,
+  "frac_p05": 0.06233333333333333,
+  "frac_p01": 0.01622222222222222,
+  "n": 9000
+ }
+}

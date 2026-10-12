@@ -1,0 +1,7 @@
+E3b null genes (300 permuted real genes per seed, NTM-ct K=30); rejection among null gene x topic pairs
+naive            seeds=10 p05 0.360±0.021  p01 0.246±0.019 | shuffled-usage diag p05 0.059
+split            seeds=10 p05 0.379±0.032  p01 0.265±0.029 | shuffled-usage diag p05 0.057
+split3           seeds=10 p05 0.104±0.007  p01 0.050±0.005 | shuffled-usage diag p05 0.047
+split3bb         seeds=10 p05 0.077±0.005  p01 0.027±0.002 | shuffled-usage diag p05 0.056
+split_hvonly     seeds=10 p05 0.085±0.007  p01 0.030±0.004 | shuffled-usage diag p05 0.061
+split3bb_hvonly  seeds=10 p05 0.067±0.006  p01 0.018±0.003 | shuffled-usage diag p05 0.059

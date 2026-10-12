@@ -1,0 +1,32 @@
+{
+ "seed": 4,
+ "K": 30,
+ "split_seed": 4,
+ "ntm_seed": 4,
+ "split3": {
+  "k_isg": 7,
+  "enrich_p": 9.592533073044711e-15,
+  "n_genes": 2000,
+  "n_isg": 52,
+  "by_ct": {
+   "classical monocyte": {
+    "n_cells": 25605,
+    "n_markers": 44,
+    "isg_in_markers": 13,
+    "frac_nonISG_sig": 0.022073921971252568,
+    "frac_ISG_sig": 0.25,
+    "median_p_nonISG": 0.4762833636855517,
+    "precision_top100": 0.18
+   },
+   "CD4-positive, alpha-beta T cell": {
+    "n_cells": 30864,
+    "n_markers": 63,
+    "isg_in_markers": 11,
+    "frac_nonISG_sig": 0.030287474332648872,
+    "frac_ISG_sig": 0.21153846153846154,
+    "median_p_nonISG": 0.46188161639045777,
+    "precision_top100": 0.12
+   }
+  }
+ }
+}

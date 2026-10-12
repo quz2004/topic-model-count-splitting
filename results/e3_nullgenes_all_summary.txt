@@ -1,0 +1,16 @@
+E3b null genes (300 permuted real genes per seed, K=30); rejection among null gene x topic pairs
+ntm    naive            seeds=10 p05 0.360±0.021  p01 0.246±0.019
+ntm    split            seeds=10 p05 0.379±0.032  p01 0.265±0.029
+ntm    split3           seeds=10 p05 0.104±0.007  p01 0.050±0.005
+ldvae  naive            seeds=5 p05 0.593±0.005  p01 0.487±0.006
+ldvae  split            seeds=5 p05 0.556±0.031  p01 0.449±0.032
+ldvae  split3bb         seeds=5 p05 0.073±0.003  p01 0.026±0.004
+nmf    naive            seeds=10 p05 0.251±0.021  p01 0.172±0.019
+nmf    split            seeds=10 p05 0.173±0.014  p01 0.117±0.011
+nmf    split3bb         seeds=10 p05 0.057±0.003  p01 0.016±0.002
+scetm  naive            seeds=5 p05 0.505±0.026  p01 0.396±0.025
+scetm  split            seeds=5 p05 0.571±0.031  p01 0.466±0.035
+scetm  split3bb         seeds=5 p05 0.070±0.004  p01 0.020±0.004
+ntm    split3bb         seeds=10 p05 0.077±0.005  p01 0.027±0.002
+ntm    split_hvonly     seeds=10 p05 0.085±0.007  p01 0.030±0.004
+ntm    split3bb_hvonly  seeds=10 p05 0.067±0.006  p01 0.018±0.003

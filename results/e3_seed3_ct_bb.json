@@ -1,0 +1,72 @@
+{
+ "seed": 3,
+ "K": 30,
+ "n_donors": 261,
+ "n_cases": 162,
+ "n_cells": 104400,
+ "isg_topic": {
+  "k": 8,
+  "enrich_p": 1.9743802445191623e-14
+ },
+ "isg_by_ct": {
+  "CD4-positive, alpha-beta T cell": {
+   "eff_sd": 0.8885620552219945,
+   "p": 9.396315309639198e-18
+  },
+  "classical monocyte": {
+   "eff_sd": 0.7513850606431719,
+   "p": 7.542365092607378e-12
+  },
+  "CD8-positive, alpha-beta T cell": {
+   "eff_sd": 0.7092230235683626,
+   "p": 1.3436234917960014e-09
+  },
+  "B cell": {
+   "eff_sd": 0.99482336421636,
+   "p": 3.0291632715710074e-17
+  },
+  "natural killer cell": {
+   "eff_sd": 0.4421585022478153,
+   "p": 0.00015847881253178747
+  },
+  "non-classical monocyte": {
+   "eff_sd": 0.8157448166508504,
+   "p": 3.426613152909026e-13
+  },
+  "conventional dendritic cell": {
+   "eff_sd": 0.7323468757156416,
+   "p": 0.08551520193187671
+  },
+  "lymphocyte": {
+   "eff_sd": NaN,
+   "p": NaN
+  }
+ },
+ "n_sig_q05": 145,
+ "n_tests": 210,
+ "null_perm": {
+  "n": 2100,
+  "frac_p05": 0.039523809523809524,
+  "frac_p01": 0.008095238095238095
+ },
+ "auc_mean": {
+  "covariates": 0.74349048046252,
+  "celltype_props": 0.8574426834130782,
+  "topics_pb": 0.9713788875598085,
+  "pca_pb": 0.9708805821371611,
+  "props+cov": 0.8788614433811801,
+  "topics+cov": 0.9698346291866028,
+  "topics+props+cov": 0.9765826355661882,
+  "pca+props+cov": 0.9770418660287082
+ },
+ "auc_sd": {
+  "covariates": 0.059303794812951074,
+  "celltype_props": 0.05203688682716165,
+  "topics_pb": 0.0184076254555565,
+  "pca_pb": 0.018216726959081962,
+  "props+cov": 0.0507798806032472,
+  "topics+cov": 0.01914033416331735,
+  "topics+props+cov": 0.01625552768036172,
+  "pca+props+cov": 0.015387862113547816
+ }
+}

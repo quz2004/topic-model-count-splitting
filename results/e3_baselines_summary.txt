@@ -1,0 +1,12 @@
+nmf AUROC topics_pb 0.962 ± 0.005 (n=10) | +cov 0.960 ± 0.006 (n=10)
+  ISG enrich median p 1.3e-07
+  classical monocyte: shift 1.13 SD; p<.05 in 10/10
+  CD4-positive, alpha-beta T cell: shift 1.11 SD; p<.05 in 10/10
+  B cell: shift 0.94 SD; p<.05 in 10/10
+ldvae AUROC topics_pb 0.979 ± 0.003 (n=10) | +cov 0.978 ± 0.003 (n=10)
+  ISG enrich median p 1.1e-06
+  classical monocyte: shift 1.06 SD; p<.05 in 10/10
+  CD4-positive, alpha-beta T cell: shift 0.73 SD; p<.05 in 7/10
+  B cell: shift 0.55 SD; p<.05 in 8/10
+NTM plain AUROC topics_pb 0.962 ± 0.006 (n=10) | pca_pb 0.972 ± 0.004 (n=10)
+NTM ct AUROC topics_pb 0.967 ± 0.004 (n=10) | pca_pb 0.972 ± 0.004 (n=10)

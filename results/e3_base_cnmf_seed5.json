@@ -1,0 +1,47 @@
+{
+ "seed": 5,
+ "method": "cnmf",
+ "K": 30,
+ "isg_topic": {
+  "k": 14,
+  "enrich_p": 7.86683237196589e-09
+ },
+ "isg_by_ct": {
+  "CD4-positive, alpha-beta T cell": {
+   "eff_sd": 0.9487339575897403,
+   "p": 5.513124772629281e-23
+  },
+  "classical monocyte": {
+   "eff_sd": 1.0686060302679006,
+   "p": 3.8105349336426404e-27
+  },
+  "CD8-positive, alpha-beta T cell": {
+   "eff_sd": 0.8836179483758876,
+   "p": 1.3756381940277356e-16
+  },
+  "B cell": {
+   "eff_sd": 0.8042971961870292,
+   "p": 4.1817893140207745e-12
+  },
+  "natural killer cell": {
+   "eff_sd": 0.8204415256050924,
+   "p": 7.375795462555487e-11
+  },
+  "non-classical monocyte": {
+   "eff_sd": 1.1211622221200805,
+   "p": 1.847858651345265e-21
+  },
+  "conventional dendritic cell": {
+   "eff_sd": 0.9237132096077969,
+   "p": 0.04405270432311388
+  },
+  "lymphocyte": {
+   "eff_sd": NaN,
+   "p": NaN
+  }
+ },
+ "auc_mean": {
+  "topics_pb": 0.9724243421052631,
+  "topics+cov": 0.9719198564593302
+ }
+}

@@ -1,0 +1,29 @@
+seeds 10 donors 115 cases 86
+AUROC (mean over 25 CV folds per seed), mean +/- sd across seeds
+                   mean     sd
+covariates        0.729  0.006
+celltype_props    0.581  0.011
+topics_pb         0.949  0.011
+pca_pb            0.961  0.008
+props+cov         0.732  0.010
+topics+cov        0.949  0.011
+topics+props+cov  0.950  0.009
+pca+props+cov     0.953  0.006
+delta AUROC topics_pb - celltype_props (np.float64(0.3684), np.float64(0.0138), 10) (mean fold diff, sd of seed means, #seeds>0)
+delta AUROC topics_pb - covariates (np.float64(0.2208), np.float64(0.0112), 10) (mean fold diff, sd of seed means, #seeds>0)
+delta AUROC topics_pb - pca_pb (np.float64(-0.0119), np.float64(0.0125), 2) (mean fold diff, sd of seed means, #seeds>0)
+delta AUROC topics+props+cov - props+cov (np.float64(0.2185), np.float64(0.0124), 10) (mean fold diff, sd of seed means, #seeds>0)
+delta AUROC topics+props+cov - pca+props+cov (np.float64(-0.0031), np.float64(0.0126), 5) (mean fold diff, sd of seed means, #seeds>0)
+delta AUROC topics+cov - props+cov (np.float64(0.2174), np.float64(0.0109), 10) (mean fold diff, sd of seed means, #seeds>0)
+ISG topic enrichment p (median) 7.616635724229613e-13
+ISG topic: disease effect (SD units) mean / frac seeds p<.05
+                                    eff  frac_p05  median_p
+CD4-positive, alpha-beta T cell  0.7566       1.0    0.0000
+CD8-positive, alpha-beta T cell  0.7074       1.0    0.0000
+natural killer cell              0.8093       1.0    0.0000
+classical monocyte               0.7324       0.9    0.0000
+B cell                           0.4085       0.6    0.0055
+conventional dendritic cell      0.7346       0.8    0.0070
+non-classical monocyte              NaN       0.0       NaN
+n sig q<.05 of tests 66.5 180.0
+perm null frac p<.05 0.0528 p<.01 0.0112

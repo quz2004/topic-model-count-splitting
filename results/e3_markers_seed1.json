@@ -1,0 +1,58 @@
+{
+ "seed": 1,
+ "K": 30,
+ "split_seed": 1,
+ "ntm_seed": 1,
+ "split": {
+  "k_isg": 6,
+  "enrich_p": 7.531047021881049e-10,
+  "n_genes": 2000,
+  "n_isg": 39,
+  "by_ct": {
+   "classical monocyte": {
+    "n_cells": 25605,
+    "n_markers": 77,
+    "isg_in_markers": 15,
+    "frac_nonISG_sig": 0.05099439061703213,
+    "frac_ISG_sig": 0.48717948717948717,
+    "median_p_nonISG": 0.4857264628348755,
+    "precision_top100": 0.16
+   },
+   "CD4-positive, alpha-beta T cell": {
+    "n_cells": 30864,
+    "n_markers": 56,
+    "isg_in_markers": 10,
+    "frac_nonISG_sig": 0.08465068842427333,
+    "frac_ISG_sig": 0.38461538461538464,
+    "median_p_nonISG": 0.3857144787579666,
+    "precision_top100": 0.13
+   }
+  }
+ },
+ "naive": {
+  "k_isg": 20,
+  "enrich_p": 1.198301074218161e-17,
+  "n_genes": 2000,
+  "n_isg": 52,
+  "by_ct": {
+   "classical monocyte": {
+    "n_cells": 25605,
+    "n_markers": 225,
+    "isg_in_markers": 28,
+    "frac_nonISG_sig": 0.19917864476386038,
+    "frac_ISG_sig": 0.6153846153846154,
+    "median_p_nonISG": 0.3220717297336757,
+    "precision_top100": 0.17
+   },
+   "CD4-positive, alpha-beta T cell": {
+    "n_cells": 30864,
+    "n_markers": 362,
+    "isg_in_markers": 27,
+    "frac_nonISG_sig": 0.22279260780287474,
+    "frac_ISG_sig": 0.5384615384615384,
+    "median_p_nonISG": 0.24269492623300815,
+    "precision_top100": 0.2
+   }
+  }
+ }
+}

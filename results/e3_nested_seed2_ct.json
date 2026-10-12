@@ -1,0 +1,49 @@
+{
+ "seed": 2,
+ "K": 30,
+ "mode": "ct",
+ "folds": [
+  {
+   "covariates": 0.8340909090909092,
+   "celltype_props": 0.7984848484848486,
+   "topics_pb": 0.9515151515151515,
+   "pca_pb": 0.9742424242424242,
+   "topics+props+cov": 0.946969696969697
+  },
+  {
+   "covariates": 0.7073365231259968,
+   "celltype_props": 0.8931419457735248,
+   "topics_pb": 0.9712918660287082,
+   "pca_pb": 0.9728867623604466,
+   "topics+props+cov": 0.9792663476874004
+  },
+  {
+   "covariates": 0.7640625,
+   "celltype_props": 0.8375,
+   "topics_pb": 0.9578125,
+   "pca_pb": 0.9453125,
+   "topics+props+cov": 0.984375
+  },
+  {
+   "covariates": 0.6546875,
+   "celltype_props": 0.9234374999999999,
+   "topics_pb": 0.984375,
+   "pca_pb": 0.9796874999999999,
+   "topics+props+cov": 0.984375
+  },
+  {
+   "covariates": 0.68671875,
+   "celltype_props": 0.84375,
+   "topics_pb": 0.9625,
+   "pca_pb": 0.9609375,
+   "topics+props+cov": 0.9859374999999999
+  }
+ ],
+ "auc_mean": {
+  "covariates": 0.7293792364433813,
+  "celltype_props": 0.8592628588516746,
+  "topics_pb": 0.965498903508772,
+  "pca_pb": 0.9666133373205742,
+  "topics+props+cov": 0.9761847089314195
+ }
+}

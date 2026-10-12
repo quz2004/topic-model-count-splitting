@@ -1,0 +1,4 @@
+nmf 10 seeds; tests/seed 2100 p<.05 0.0442±0.0047  p<.01 0.0076±0.0015
+ldvae 10 seeds; tests/seed 2100 p<.05 0.0471±0.0064  p<.01 0.0088±0.0028
+scetm 10 seeds; tests/seed 2100 p<.05 0.0480±0.0061  p<.01 0.0093±0.0012
+cnmf 10 seeds; tests/seed 2100 p<.05 0.0470±0.0056  p<.01 0.0096±0.0029

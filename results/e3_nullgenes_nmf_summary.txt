@@ -1,0 +1,4 @@
+E3b null genes, NMF (log-normalized, K=30), 300 permuted genes/seed
+naive     seeds=10 p05 0.251±0.021 p01 0.172±0.019
+split     seeds=10 p05 0.173±0.014 p01 0.117±0.011
+split3bb  seeds=10 p05 0.057±0.003 p01 0.016±0.002
