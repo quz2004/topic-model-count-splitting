@@ -2,7 +2,7 @@
 
 Code, figures and result tables for the manuscript "Reducing double-dipping in single-cell topic models with three-way count splitting".
 
-Author and contact: Zheng Qu, Fei Tian College Northern Campus, Middletown, NY 10940; zqu001@mt.feitian.edu. License: MIT.
+Author and contact: Zheng Qu, Fei Tian College Northern Campus, Middletown, NY 10940; zqu001@mt.feitian.edu. License: MIT. Archived release v0.11: https://doi.org/10.5281/zenodo.23307193 (cite using `CITATION.cff`).
 
 ## Layout
 - `code/` analysis code: `nbtm.py` (topic model, count splitting, tests), `e1_sim.py` (simulation), `e2_kang.py` and `e2_baselines.py` (IFN-β PBMCs), `e3_*.py` (lupus cohort, baselines, nested CV, null genes, markers), `agg_*.py` (aggregation), `fig_*.py` (figures), `fetch_*.py` and `prep_kang.py` (data download and preparation).

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Reducing double-dipping in single-cell topic models with three-way count splitting: code, figures and result tables"
+type: software
+authors:
+  - family-names: Qu
+    given-names: Zheng
+    affiliation: "Fei Tian College Northern Campus, Middletown, NY, USA"
+version: "0.11"
+doi: 10.5281/zenodo.23307193
+license: MIT
+repository-code: "https://github.com/quz2004/topic-model-count-splitting"
